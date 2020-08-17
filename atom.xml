@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dalton0523.github.io</id>
     <title>dalton&apos;s blog</title>
-    <updated>2020-08-17T09:38:35.877Z</updated>
+    <updated>2020-08-17T12:24:22.907Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dalton0523.github.io"/>
     <link rel="self" href="https://dalton0523.github.io/atom.xml"/>
@@ -10,49 +10,6 @@
     <logo>https://dalton0523.github.io/images/avatar.png</logo>
     <icon>https://dalton0523.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, dalton&apos;s blog</rights>
-    <entry>
-        <title type="html"><![CDATA[测试]]></title>
-        <id>https://dalton0523.github.io/post/test/</id>
-        <link href="https://dalton0523.github.io/post/test/">
-        </link>
-        <updated>2020-08-17T02:46:07.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="一级标题">一级标题</h1>
-<h2 id="二级标题">二级标题</h2>
-<h3 id="三级标题">三级标题</h3>
-<!-- 1111 -->
-<p>☹️☹️<img src="https://dalton0523.github.io/post-images/1597649258619.png" alt="" loading="lazy"></p>
-<h1 id="关于mysql基本语法">关于MySql基本语法</h1>
-<p><a name="3twZS"></a></p>
-<h2 id="几个表的数据库语句">几个表的数据库语句</h2>
-<pre><code class="language-sql">// 通过这条语句可以得到所有的数据库名  
-select schema_name from information_schema.schemata limit 0,1
-// 通过这条语句可以得到所有的数据表名
-select table_name from information_schema.tables limit 0,1
-// 通过这条语句可以得到指定security数据库中的所有表名
-select table_name from information_schema.tables where table_schema='security'limit 0,1
-// 通过这条语句可以得到所有的列名
-select column_name from information_schema.columns limit 0,1
-// 通过这条语句可以得到指定数据库security中的数据表users的所有列名
-select column_name from information_schema.columns where table_schema='security' and table_name='users' limit 0,1
-//通过这条语句可以得到指定数据表users中指定列password的数据(只能是database()所在的数据库内的数据，因为处于当前数据库下的话不能查询其他数据库内的数据)
-select password from users limit 0,1
-</code></pre>
-<pre><code class="language-python">#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-import hashlib
-MD5 = &quot;1b4167610ba3f2ac426a68488dbd89be&quot;
-chars = &quot;abcdefghijklmnopqrstuvwxyz0123456789&quot;
-for i in chars:
-    for j in chars:
-        for k in chars:
-            key = &quot;ichunqiu&quot; + i + j + k
-            hash = hashlib.md5(key.encode()).hexdigest()
-            if hash == MD5:
-                print(key)
-                print(hash)
-</code></pre>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://dalton0523.github.io/post/hello-gridea/</id>
