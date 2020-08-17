@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" >
 
-<title>test | dalton&#39;s blog</title>
+<title>测试 | dalton&#39;s blog</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://dalton0523.github.io/favicon.ico?v=1597648335115">
+<link rel="shortcut icon" href="https://dalton0523.github.io/favicon.ico?v=1597649489765">
 <link rel="stylesheet" href="https://dalton0523.github.io/styles/main.css">
 
 
@@ -18,12 +18,17 @@
 
 
 
-    <meta name="description" content="#test
-test
-test3
+    <meta name="description" content="一级标题
+二级标题
+三级标题
 
-" />
-    <meta name="keywords" content="" />
+☹️☹️
+关于MySql基本语法
+
+几个表的数据库语句
+// 通过这条语句可以得到所有的数据库名  
+select schema_name from information_schema.schemata l..." />
+    <meta name="keywords" content="测试" />
   </head>
   <body>
     <div id="app" class="main">
@@ -32,7 +37,7 @@ test3
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://dalton0523.github.io">
-        <img src="https://dalton0523.github.io/images/avatar.png?v=1597648335115" class="site-logo">
+        <img src="https://dalton0523.github.io/images/avatar.png?v=1597649489765" class="site-logo">
         <h1 class="site-title">dalton&#39;s blog</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -94,16 +99,41 @@ test3
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">test</h2>
+            <h2 class="post-title">测试</h2>
             <div class="post-date">2020-08-17</div>
             
             <div class="post-content" v-pre>
-              <p>#test</p>
-<h2 id="test">test</h2>
-<h3 id="test3">test3</h3>
+              <h1 id="一级标题">一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
 <!-- 1111 -->
+<p>☹️☹️<img src="https://dalton0523.github.io/post-images/1597649258619.png" alt="" loading="lazy"></p>
+<h1 id="关于mysql基本语法">关于MySql基本语法</h1>
+<p><a name="3twZS"></a></p>
+<h2 id="几个表的数据库语句">几个表的数据库语句</h2>
+<pre><code class="language-sql">// 通过这条语句可以得到所有的数据库名  
+select schema_name from information_schema.schemata limit 0,1
+// 通过这条语句可以得到所有的数据表名
+select table_name from information_schema.tables limit 0,1
+// 通过这条语句可以得到指定security数据库中的所有表名
+select table_name from information_schema.tables where table_schema='security'limit 0,1
+// 通过这条语句可以得到所有的列名
+select column_name from information_schema.columns limit 0,1
+// 通过这条语句可以得到指定数据库security中的数据表users的所有列名
+select column_name from information_schema.columns where table_schema='security' and table_name='users' limit 0,1
+//通过这条语句可以得到指定数据表users中指定列password的数据(只能是database()所在的数据库内的数据，因为处于当前数据库下的话不能查询其他数据库内的数据)
+select password from users limit 0,1
+</code></pre>
 
             </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://dalton0523.github.io/tag/_vrQgnr1c/" class="tag">
+                    测试
+                  </a>
+                
+              </div>
             
             
               <div class="next-post">
