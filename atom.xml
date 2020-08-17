@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://dalton.github.io</id>
+    <id>https://dalton0523.github.io</id>
     <title>Gridea</title>
-    <updated>2020-08-17T03:26:17.895Z</updated>
+    <updated>2020-08-17T04:18:35.064Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://dalton.github.io"/>
-    <link rel="self" href="https://dalton.github.io/atom.xml"/>
+    <link rel="alternate" href="https://dalton0523.github.io"/>
+    <link rel="self" href="https://dalton0523.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://dalton.github.io/images/avatar.png</logo>
-    <icon>https://dalton.github.io/favicon.ico</icon>
+    <logo>https://dalton0523.github.io/images/avatar.png</logo>
+    <icon>https://dalton0523.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[test]]></title>
-        <id>https://dalton.github.io/post/test/</id>
-        <link href="https://dalton.github.io/post/test/">
+        <id>https://dalton0523.github.io/post/test/</id>
+        <link href="https://dalton0523.github.io/post/test/">
         </link>
         <updated>2020-08-17T02:46:07.000Z</updated>
         <content type="html"><![CDATA[<p>#test</p>
@@ -22,8 +22,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://dalton.github.io/post/hello-gridea/</id>
-        <link href="https://dalton.github.io/post/hello-gridea/">
+        <id>https://dalton0523.github.io/post/hello-gridea/</id>
+        <link href="https://dalton0523.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
